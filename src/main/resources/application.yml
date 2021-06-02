@@ -6,15 +6,15 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 1234
+    url: postgres://xflbodancgscco:fee57fbfd1ef96cc821029833c46f8384bdad8380e983e9f0097be3a885b1aa3@ec2-18-214-140-149.compute-1.amazonaws.com:5432/dg3n7vdrlleb7
+    username: xflbodancgscco
+    password: fee57fbfd1ef96cc821029833c46f8384bdad8380e983e9f0097be3a885b1aa3
   jpa:
     show-sql: true
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
       ddl-auto: none
 
 application:
-  description:  
+  description: Projeto criado par ao bootcamp do santander
